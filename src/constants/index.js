@@ -40,7 +40,7 @@ export const navLinks = [
   },
 ];
 
-const services = [
+const services = [ 
   {
     title: "Web Developer",
     icon: web,
