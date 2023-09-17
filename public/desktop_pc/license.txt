@@ -1,11 +1,11 @@
 Model Information:
-* title:	IBM PCjr 4863 Computer-Freepoly.org
-* source:	https://sketchfab.com/3d-models/ibm-pcjr-4863-computer-freepolyorg-1c3c3cd0643d44d49a1771048da74c62
-* author:	Freepoly.org (https://sketchfab.com/blackrray)
+* title:	Shiba
+* source:	https://sketchfab.com/3d-models/shiba-faef9fe5ace445e7b2989d1c1ece361c
+* author:	zixisun02 (https://sketchfab.com/zixisun51)
 
 Model License:
 * license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
 * requirements:	Author must be credited. Commercial use is allowed.
 
 If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
-This work is based on "IBM PCjr 4863 Computer-Freepoly.org" (https://sketchfab.com/3d-models/ibm-pcjr-4863-computer-freepolyorg-1c3c3cd0643d44d49a1771048da74c62) by Freepoly.org (https://sketchfab.com/blackrray) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+This work is based on "Shiba" (https://sketchfab.com/3d-models/shiba-faef9fe5ace445e7b2989d1c1ece361c) by zixisun02 (https://sketchfab.com/zixisun51) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
