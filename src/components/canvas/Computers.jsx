@@ -16,26 +16,36 @@ const Computers = ({ isMobile }) => {
         <hemisphereLight intensity={20.15} groundColor="red" />
         <pointLight intensity={35} />
         <spotLight position={[20, 10, 50]} angle={1.12} penumbra={5} intensity={15} castShadow shadow-mapSize={1024} />
-        <primitive object={computer.scene} scale={isMobile ? -3.9 : 4.9} position={isMobile ? [-6, 0.15, -2.2] : [-3, 1.25, -1.15]} rotation={isMobile ? [0, 3.90, 3.2] : [-0.01, 7.0, 0]} />
+        <primitive object={computer.scene} scale={isMobile ? -3.9 : 4.9} position={isMobile ? [-4, 1.00, -2.2] : [-3, 1.25, -1.15]} rotation={isMobile ? [0, 3.90, 3.2] : [-0.01, 7.0, 0]} />
       </mesh>
     );
 };
 
 const ComputersCanvas = () => {
 
-  // for mobile size const
+  // for mobile size const at first its false cause its not mobile size yet
   const [isMobile, setIsMobile] = useState(false);
 
+
+  //now chaging to mobile size
+//helping with changing size of website
   useEffect(() => {
+
+    //adding a event listener changing according to screen size ex: mobile size or desktop size
    const mediaQuery = window.matchMedia('(max-width: 500px)');
+   //seting the initial value of seting IsMobile state. its is mobile
    setIsMobile(mediaQuery.matches);
 
+
+    //define a callback function to handle the changes to mediaquery for mobile
    const handleMediaQueryChange = (event) => {
     setIsMobile(event.matches);
    }
 
+   //adding the callback function to listen to changes to media query 
    mediaQuery.addEventListener('change', handleMediaQueryChange);
 
+   //removing the callback function when the result is unmounted or returning to desktop size
    return () => { mediaQuery.removeEventListener('change', handleMediaQueryChange);
    }
   }, []);
