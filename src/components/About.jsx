@@ -6,6 +6,7 @@ import {services} from '../constants';
 import { fadeIn, textVariant } from "../utils/motion";
 import { SectionWrapper } from '../hoc';
 
+// each card properties
 const ServiceCard = ({ index, title, icon }) => {
   return(
 
@@ -31,8 +32,10 @@ const About = () => {
       <h2 className={styles.sectionHeadText}>Overview.</h2>
     </motion.div>
 
+    {/* paragraph for overview */}
     <motion.p variants={fadeIn("","", 0.1, 7)} className="mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]">Hi, I am a 23-year-old IT Professional, I started my coding journey as a naive computer science student with a passion to learn everything I could about this programming world - code, unix, linux, theory. And all the while, teaching myself HTML, CSS, and JS development with a dream to build my own web-app, but that soon got overshadowed by my desire to excel in Java. However, I think it's time. It's time to get uncomfortable again. I have a burning desire to be a full fledge Full stack developer and an Entrepreneur, and fulfill that dream younger me had of building my own company, my own product. And in order to do that, I'll be implmementing a few measures to focus more time on fulfilling that dream - a dream that I'll be ready to tackle in 2023 due to the measure I'm putting in place now until the end of 2022. </motion.p>
 
+    {/* service card rendering */}
     <div className="mt-20 flex flex-wrap gap-10"> 
     {services.map((service, index) => (<ServiceCard key={service.title} index={index} {...service} />))}
       </div>

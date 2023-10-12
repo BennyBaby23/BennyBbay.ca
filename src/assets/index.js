@@ -1,6 +1,6 @@
 import logo from "./logo2.png";
 import backend from "./backend.png";
-import creator from "./creator.png";
+import pHealth from "./social.png";
 import entre from "./entre.png";
 import web from "./web.png";
 import github from "./github.png";
@@ -21,10 +21,13 @@ import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
 
-import meta from "./company/meta.png";
-import shopify from "./company/shopify.png";
-import starbucks from "./company/starbucks.png";
-import tesla from "./company/tesla.png";
+import georgian1 from "./company/georgian1.jpeg";
+import georgian from "./company/georgian.png";
+import HBEC from "./company/HBEC.png";
+import sienna from "./company/Sienna.jpeg";
+import gao from "./company/gao.jpeg";
+import mosaic from "./company/mosaic.jpeg";
+import loblaw from "./company/loblaws.png";
 
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
@@ -33,7 +36,7 @@ import tripguide from "./tripguide.png";
 export {
   logo,
   backend,
-  creator,
+  pHealth,
   entre,
   web,
   github,
@@ -52,10 +55,13 @@ export {
   tailwind,
   typescript,
   threejs,
-  meta,
-  shopify,
-  starbucks,
-  tesla,
+ georgian1,
+ mosaic,
+ loblaw,
+  georgian,
+  HBEC,
+  sienna,
+  gao,
   carrent,
   jobit,
   tripguide,
