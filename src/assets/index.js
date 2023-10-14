@@ -66,5 +66,5 @@ export {
   carrent,
   jobit,
   tripguide,
-  linkedin,
+  linkedin
 };
