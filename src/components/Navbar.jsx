@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 
 import { styles } from '../styles';
 import { navLinks } from '../constants';
-import { logo, menu, close, github} from '../assets';
+import { logo, menu, close, github, linked} from '../assets';
 
 
 
@@ -24,9 +24,9 @@ const Navbar = () => {
         </Link>
 
              {/* help us to nav where we are currently on page */}
-             {/* <Link to="https://www.linkedin.com/in/benny-b-001120207/" className="flex items-center gap-2" onClick={ () => {setActive(""); window.scrollTo(0, 0);  }}>
-        <img width="32px" className="object-contain" src={linkedin} /> 
-        </Link> */}
+             <Link to="https://www.linkedin.com/in/benny-b-001120207/" className="flex items-center gap-2" onClick={ () => {setActive(""); window.scrollTo(0, 0);  }}>
+        <img width="32px" className="object-contain" src={linked} /> 
+        </Link>
                {/* help us to nav where we are currently on page */}
                <Link to="https://github.com/BennyBaby23" className="flex gap-2" onClick={ () => {setActive(""); window.scrollTo(0, 0);  }}>
         <img width="32px" className="object-contain" src={github} />

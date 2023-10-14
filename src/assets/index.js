@@ -29,6 +29,7 @@ import sienna from "./company/Sienna.jpeg";
 import gao from "./company/gao.jpeg";
 import mosaic from "./company/mosaic.jpeg";
 import loblaw from "./company/loblaws.png";
+import linked from "./company/linkedin.png";
 
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
@@ -59,6 +60,7 @@ export {
  georgian1,
  mosaic,
  loblaw,
+ linked,
   georgian,
   HBEC,
   sienna,
@@ -66,5 +68,4 @@ export {
   carrent,
   jobit,
   tripguide,
-  
 };
