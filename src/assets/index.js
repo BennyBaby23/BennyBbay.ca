@@ -30,6 +30,8 @@ import gao from "./company/gao.jpeg";
 import mosaic from "./company/mosaic.jpeg";
 import loblaw from "./company/loblaws.png";
 import linked from "./company/linkedin1.png";
+import tim from "./company/tim.png";
+import rec from "./company/rec.png";
 
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
@@ -63,7 +65,9 @@ export {
  linked,
   georgian,
   HBEC,
+  tim,
   sienna,
+  rec,
   gao,
   carrent,
   jobit,
