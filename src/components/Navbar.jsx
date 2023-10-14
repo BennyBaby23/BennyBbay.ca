@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 
 import { styles } from '../styles';
 import { navLinks } from '../constants';
-import { logo, menu, close} from '../assets';
+import { logo, menu, close, linkedin, github} from '../assets';
 
 
 
@@ -20,8 +20,18 @@ const Navbar = () => {
         {/* help us to nav where we are currently on page */}
         <Link to="/" className="flex items-center gap-2" onClick={ () => {setActive(""); window.scrollTo(0, 0);  }}>
         <img src={logo} alt="logo" className="w-12 h-12 object-contain"/>
-        <p className='text-white text-[18px] font-bold cursor-pointer flex'>Benny Baby</p>
+        <p className='text-white text-[18px] font-bold cursor-pointer flex'>Benny Baby&nbsp;&nbsp;</p>
         </Link>
+
+             {/* help us to nav where we are currently on page */}
+             <Link to="https://www.linkedin.com/in/benny-b-001120207/" className="flex items-center gap-2" onClick={ () => {setActive(""); window.scrollTo(0, 0);  }}>
+        <img width="32px" className="object-contain" src={linkedin} /> 
+        </Link>
+               {/* help us to nav where we are currently on page */}
+               <Link to="https://github.com/BennyBaby23" className="flex gap-2" onClick={ () => {setActive(""); window.scrollTo(0, 0);  }}>
+        <img width="32px" className="object-contain" src={github} />
+        </Link>
+
 
         {/* Nav for home about and other details*/}
         <ul className="list-none hidden sm:flex flex-row gap-10">

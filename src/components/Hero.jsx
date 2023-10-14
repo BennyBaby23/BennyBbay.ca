@@ -2,6 +2,7 @@ import { motion } from "framer-motion";
 import { styles } from "../styles";
 import { ComputersCanvas } from "./canvas";
 
+
 const Hero = () => {
   return (
     <section className={`relative w-full h-screen mx-auto`}>
@@ -18,6 +19,7 @@ const Hero = () => {
       <div>
       <a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=70&pause=1000&color=AEE1F9&width=718&height=109&lines=I'M+BENNY+BABY;ENTREPRENEUR;SOFTWARE+ENGINEER;ALWAYS+LEARNING" alt="Typing SVG" /></a>
       <p className={`${styles.heroSubText} mt-2 text-white-25`}>Printf (Orli Say's "Hello World!");</p>
+   
       </div>
     </div>
 

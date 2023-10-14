@@ -29,7 +29,6 @@ export const fadeIn = (direction, type, delay, duration) => {
       opacity: 1,
       transition: {
         type: type,
-        delay: delay,
         duration: duration,
         ease: "easeOut",
       },
