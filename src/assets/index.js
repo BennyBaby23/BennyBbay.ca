@@ -2,7 +2,7 @@ import logo from "./logo2.png";
 import backend from "./backend.png";
 import pHealth from "./social.png";
 import entre from "./entre.png";
-import linkedin from "./linkedin.png";
+
 import web from "./web.png";
 import github from "./github.png";
 import menu from "./menu.svg";
@@ -66,5 +66,5 @@ export {
   carrent,
   jobit,
   tripguide,
-  linkedin
+  
 };
