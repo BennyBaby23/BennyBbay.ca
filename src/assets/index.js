@@ -4,7 +4,7 @@ import pHealth from "./social.png";
 import entre from "./entre.png";
 
 import web from "./web.png";
-import github from "./github.png";
+import github from "./github1.png";
 import menu from "./menu.svg";
 import close from "./close.svg";
 
@@ -29,7 +29,7 @@ import sienna from "./company/Sienna.jpeg";
 import gao from "./company/gao.jpeg";
 import mosaic from "./company/mosaic.jpeg";
 import loblaw from "./company/loblaws.png";
-import linked from "./company/linkedin.png";
+import linked from "./company/linkedin1.png";
 
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
