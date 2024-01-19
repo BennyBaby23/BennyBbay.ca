@@ -15,11 +15,12 @@ import git from "./tech/git.png";
 import html from "./tech/html.png";
 import javascript from "./tech/javascript.png";
 import mongodb from "./tech/mongodb.png";
+import Csharp from "./tech/csharp.png";
 import nodejs from "./tech/nodejs.png";
 import reactjs from "./tech/reactjs.png";
 import redux from "./tech/redux.png";
 import tailwind from "./tech/tailwind.png";
-import typescript from "./tech/typescript.png";
+import azure from "./tech/azure.png";
 import threejs from "./tech/threejs.svg";
 
 import georgian1 from "./company/georgian1.jpeg";
@@ -57,7 +58,7 @@ export {
   reactjs,
   redux,
   tailwind,
-  typescript,
+  azure,
   threejs,
  georgian1,
  mosaic,
@@ -71,5 +72,5 @@ export {
   gao,
   carrent,
   jobit,
-  tripguide,
+  tripguide,Csharp
 };

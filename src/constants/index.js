@@ -4,8 +4,9 @@ import {
   pHealth,
   web,
   javascript,
-  typescript,
+  azure,
   html,
+  Csharp,
   css,
   reactjs,
   redux,
@@ -77,8 +78,8 @@ const technologies = [
     icon: javascript,
   },
   {
-    name: "TypeScript",
-    icon: typescript,
+    name: "Azure",
+    icon: azure,
   },
   {
     name: "React JS",
@@ -115,7 +116,10 @@ const technologies = [
   {
     name: "docker",
     icon: docker,
-  },
+  },  {
+    name: "C#",
+    icon: Csharp,
+  }
 ];
 
 const experiences = [
