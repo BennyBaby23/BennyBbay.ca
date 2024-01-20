@@ -35,7 +35,7 @@ import linked from "./company/linkedin1.png";
 import tim from "./company/tim.png";
 import rec from "./company/rec.png";
 
-import weather from "./weather.png";
+import weather from "./Weather.png";
 import calculator from "./Calculator.png";
 import bmi from "./BMI.png";
 import shopping from "./shopping.png";
