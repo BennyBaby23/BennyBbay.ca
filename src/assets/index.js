@@ -39,6 +39,9 @@ import weather from "./Weather.png";
 import calculator from "./Calculator.png";
 import bmi from "./BMI.png";
 import shopping from "./shopping.png";
+import portfolio from "./portfolio.png";
+import skills from "./skills.png";
+
 
 
 export {
@@ -76,5 +79,5 @@ export {
   gao,
   weather,
   calculator,
-  bmi,Csharp,shopping
+  bmi,Csharp,shopping ,portfolio,skills,
 };

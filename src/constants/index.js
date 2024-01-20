@@ -28,7 +28,7 @@ import {
   weather,
   calculator,
   bmi,
-  threejs, shopping,
+  threejs, shopping, portfolio, skills,
 } from "../assets";
 
 export const navLinks = [
@@ -362,6 +362,48 @@ const projects = [
     image: shopping,
     source_code_link: "https://github.com/BennyBaby23/FinalProjectCSharp?tab=readme-ov-file",
     deploy_link: "https://github.com/BennyBaby23/FinalProjectCSharp?tab=readme-ov-file",
+  },{
+    name: "Portfolio",
+    description:
+      "Portfolio, crafted with React, Three.js, Vite, and JavaScript, is a dynamic showcase of my skills and creativity. Using React for a modular structure, My projects are presented in an organized and efficient manner. The incorporation of Three.js adds a visually striking dimension, offering an immersive 3D experience for users to interact with my work.",
+    tags: [
+      {
+        name: "React",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Three.js",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Vite,JavaScript,Tailwind",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: portfolio,
+    source_code_link: "https://github.com/BennyBaby23/BennyBbay.ca/tree/main",
+    deploy_link: "https://www.bennybaby.ca/",
+  },{
+    name: "Sell Your Skills",
+    description:
+      "SellYourSkills helps individuals seeking to acquire new skills who wants to acquire new skills from experts who possess the knowledge by simplying the time and effort required to find the skills and fostering and environment where learning is not just about gaining new skills but also making a positive impact.  make the vision statement better",
+    tags: [
+      {
+        name: "React",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Firebase",
+        color: "green-text-gradient",
+      },
+      {
+        name: "HTML,SCSS, Javascript",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: skills,
+    source_code_link: "https://github.com/BennyBaby23/SellYourSkills",
+    deploy_link: "https://willowy-melomakarona-72f470.netlify.app/",
   },
 ];
 
