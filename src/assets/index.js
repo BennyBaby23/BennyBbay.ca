@@ -5,6 +5,7 @@ import entre from "./entre.png";
 
 import web from "./web.png";
 import github from "./github1.png";
+import deploy from "./deploy2.gif";
 import menu from "./menu.svg";
 import close from "./close.svg";
 
@@ -34,9 +35,11 @@ import linked from "./company/linkedin1.png";
 import tim from "./company/tim.png";
 import rec from "./company/rec.png";
 
-import carrent from "./carrent.png";
-import jobit from "./jobit.png";
-import tripguide from "./tripguide.png";
+import weather from "./weather.png";
+import calculator from "./Calculator.png";
+import bmi from "./BMI.png";
+import shopping from "./shopping.png";
+
 
 export {
   logo,
@@ -45,6 +48,7 @@ export {
   entre,
   web,
   github,
+  deploy,
   menu,
   close,
   css,
@@ -70,7 +74,7 @@ export {
   sienna,
   rec,
   gao,
-  carrent,
-  jobit,
-  tripguide,Csharp
+  weather,
+  calculator,
+  bmi,Csharp,shopping
 };

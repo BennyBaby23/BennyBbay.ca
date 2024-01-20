@@ -37,6 +37,7 @@ const Navbar = () => {
         <ul className="list-none hidden sm:flex flex-row gap-10">
           {navLinks.map((link) => (<li key={link.id} className={`${active === link.title? "text.white" : "text-secondary"} hover:text-white text-[17px] font-medium cursor-pointer`} onClick={() => setActive(link.title)}> <a href={`#${link.id}`}> {link.title} </a></li>))}
         </ul>
+        
 
          {/* Nav for small devices to show in a block open and close*/}
         <div className ="sm:hidden flex flex-1 justify-end items-center"> 
@@ -47,6 +48,7 @@ const Navbar = () => {
         <ul className="list-none flex justify-end items-start flex-col gap-4">
         {navLinks.map((link) => (<li key={link.id} className={`${active === link.title? "text.white" : "text-secondary"} font-poppins font-medium cursor-pointer text-[16px]`} onClick={() => {setToggle(!toggle); setActive(link.title);} }> <a href={`#${link.id}`}> {link.title} </a></li>))}
         </ul>
+
 
         </div>
         </div>

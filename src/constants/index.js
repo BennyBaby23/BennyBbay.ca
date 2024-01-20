@@ -25,10 +25,10 @@ import {
   loblaw,
   tim,
   rec,
-  carrent,
-  jobit,
-  tripguide,
-  threejs,
+  weather,
+  calculator,
+  bmi,
+  threejs, shopping,
 } from "../assets";
 
 export const navLinks = [
@@ -38,7 +38,7 @@ export const navLinks = [
   },
   {
     id: "work",
-    title: "Work",
+    title: "Works",
   },
   {
     id: "contact",
@@ -273,54 +273,59 @@ const testimonials = [
 
 const projects = [
   {
-    name: "Car Rent",
+    name: "Weather App",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "Web-based platform that allows users to check weather of a place. Responsive React-based weather app, delivering real-time weather updates with an intuitive interface. Plan your day with hourly and daily forecasts, explore interactive maps, and personalize settings for a tailored weather experience. With its user-friendly design and accurate data sourced from a reliable API, WeatherNow is your go-to companion for staying informed about the weather, anytime and anywhere.",
     tags: [
       {
-        name: "react",
+        name: "React",
         color: "blue-text-gradient",
       },
       {
-        name: "mongodb",
+        name: "Javascript",
         color: "green-text-gradient",
       },
       {
-        name: "tailwind",
+        name: "Tailwind",
+        color: "pink-text-gradient",
+      }, {
+        name: "WeatherAPI",
         color: "pink-text-gradient",
       },
     ],
-    image: carrent,
-    source_code_link: "https://github.com/",
+    image: weather,
+    source_code_link: "https://github.com/BennyBaby23/SysProjectWeatherApp",
+    deploy_link: "https://weattherappcomp3006.netlify.app/",
   },
   {
-    name: "Job IT",
+    name: "Soccer Calculater",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      "Soccer theme based Smart mobile calculator app built with Kotlin, combining precision, a history tracker, and customizable features, CalcMate offers a seamless and personalized calculation experience. Its responsive design ensures smooth performance on Android devices, making it the go-to solution for users seeking efficiency and accuracy in their daily calculations.",
     tags: [
       {
-        name: "react",
+        name: "Kotlin",
         color: "blue-text-gradient",
       },
       {
-        name: "restapi",
+        name: "Figma",
         color: "green-text-gradient",
       },
       {
-        name: "scss",
+        name: "Java",
         color: "pink-text-gradient",
       },
     ],
-    image: jobit,
-    source_code_link: "https://github.com/",
+    image: calculator,
+    source_code_link: "https://github.com/BennyBaby23/SoccerCalculatorApi",
+    deploy_link: "https://github.com/BennyBaby23/SoccerCalculatorApi"
   },
   {
-    name: "Trip Guide",
+    name: "BMI Calculator",
     description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      "BMI Pro is a user-friendly mobile app, crafted with Kotlin, to effortlessly calculate and track Body Mass Index (BMI). With quick BMI assessments, personalized profiles, and insightful health tips, BMI Pro empowers users to make informed decisions about their well-being. The app's seamless experience on Android ensures it's a practical and accessible health companion for individuals and families.",
     tags: [
       {
-        name: "nextjs",
+        name: "Kotlin",
         color: "blue-text-gradient",
       },
       {
@@ -328,12 +333,35 @@ const projects = [
         color: "green-text-gradient",
       },
       {
-        name: "css",
+        name: "Java",
         color: "pink-text-gradient",
       },
     ],
-    image: tripguide,
-    source_code_link: "https://github.com/",
+    image: bmi,
+    source_code_link: "https://github.com/BennyBaby23/BMICalculator",
+    deploy_link: "https://github.com/BennyBaby23/BMICalculator",
+  },
+  {
+    name: "Shooping Website using C#",
+    description:
+      "Develop a dynamic shopping website using C# and ASP.NET, incorporating a modern frontend framework for an engaging user interface. Utilize HTML, CSS, and JavaScript for frontend development, ensuring a responsive and interactive shopping experience. Leverage C# and ASP.NET for backend development, following the MVC architectural pattern for a well-organized codebase. Integrate a robust database, such as SQL Server, using Entity Framework for efficient data management.",
+    tags: [
+      {
+        name: "C#",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "SQL SERVER",
+        color: "green-text-gradient",
+      },
+      {
+        name: "HTML,CSS",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: shopping,
+    source_code_link: "https://github.com/BennyBaby23/FinalProjectCSharp?tab=readme-ov-file",
+    deploy_link: "https://github.com/BennyBaby23/FinalProjectCSharp?tab=readme-ov-file",
   },
 ];
 
