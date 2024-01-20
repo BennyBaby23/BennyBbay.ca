@@ -5,7 +5,7 @@ import { styles } from '../styles';
 import { github , deploy } from "../assets";
 import { SectionWrapper } from "../hoc";
 import { projects } from "../constants";
-import { fadeIn, textVariant } from "../utils/motion";
+import { fadeIn } from "../utils/motion";
 
 // for each project card and its properties
 const ProjectCard = ({index, name, description, tags, image, source_code_link, deploy_link }) => { 
@@ -78,4 +78,4 @@ const Works = () => {
   )
 }
 
-export default SectionWrapper(Works, "work");
+export default SectionWrapper(Works, "works");
