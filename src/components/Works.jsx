@@ -13,8 +13,8 @@ const ProjectCard = ({index, name, description, tags, image, source_code_link, d
     // framer motion for the card
     <motion.div variants={fadeIn("up", "spring", index * 0.5, 0.75)}>
       {/* card tilt */}
-      <Tilt options={{max: 45, scale: 1, speed: 450}} className="bg-tertiary p-5 rounded-2xl sm:w-[360px] w-full">
-        <div className="relative w-full h-[230px]">
+      <Tilt options={{max: 45, scale: 1, speed: 450}} className="bg-tertiary p-5 rounded-2xl sm:w-[350px]">
+        <div className="relative w-full h-[200px]">
           {/* card image of the project */}
           <img src={image} alt={name} className="w-full h-full object-contain rounded-2xl" />
           
