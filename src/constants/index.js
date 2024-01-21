@@ -28,7 +28,7 @@ import {
   weather,
   calculator,
   bmi,
-  threejs, shopping, portfolio, skills,
+  threejs, shopping, portfolio, skills,freeCodeCamp, linked, aws
 } from "../assets";
 
 export const navLinks = [
@@ -244,30 +244,24 @@ const experiences = [
   },
 ];
 
-const testimonials = [
+const certifications = [
   {
-    testimonial:
-      "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-    name: "Sara Lee",
-    designation: "CFO",
-    company: "Acme Co",
-    image: "https://randomuser.me/api/portraits/women/4.jpg",
+    certification:"2022 freeCodeCamp RelaDonal database",
+    name: "Relational database",
+    company: "freeCodeCamp",
+    image: freeCodeCamp,
   },
   {
-    testimonial:
-      "I've never met a web developer who truly cares about their clients' success like Rick does.",
-    name: "Chris Brown",
-    designation: "COO",
-    company: "DEF Corp",
-    image: "https://randomuser.me/api/portraits/men/5.jpg",
+    certification: "2023 AWS cloud Practitoner",
+    name: "cloud Practitoner",
+    company: "AWS",
+    image: aws,
   },
   {
-    testimonial:
-      "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-    name: "Lisa Wang",
-    designation: "CTO",
-    company: "456 Enterprises",
-    image: "https://randomuser.me/api/portraits/women/6.jpg",
+    certification: "LinkedIn Certificate: OOPS java",
+    name: "OOPS Java",
+    company: "LinkedIn Certificate",
+    image: linked,
   },
 ];
 
@@ -407,4 +401,4 @@ const projects = [
   },
 ];
 
-export { services, technologies, experiences, testimonials, projects };
+export { services, technologies, experiences, certifications, projects };

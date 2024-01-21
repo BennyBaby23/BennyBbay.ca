@@ -41,7 +41,8 @@ import bmi from "./BMI.png";
 import shopping from "./shopping.png";
 import portfolio from "./portfolio.png";
 import skills from "./skills.png";
-
+import freeCodeCamp from "./codecamp.png";
+import aws from "./aws.jpeg";
 
 
 export {
@@ -79,5 +80,5 @@ export {
   gao,
   weather,
   calculator,
-  bmi,Csharp,shopping ,portfolio,skills,
+  bmi,Csharp,shopping ,portfolio,skills,freeCodeCamp, aws
 };
