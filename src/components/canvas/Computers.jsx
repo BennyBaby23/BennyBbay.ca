@@ -8,7 +8,7 @@ const Computers = ({ isMobile }) => {
 
   // 3d model path
   const computer = useGLTF("./desktop_pc/scene.gltf");
-  console.log(computer);
+ 
   
     return (
       // mesh for 3d model and properties
@@ -32,7 +32,7 @@ const ComputersCanvas = () => {
   useEffect(() => {
 
     //adding a event listener changing according to screen size ex: mobile size or desktop size
-   const mediaQuery = window.matchMedia('(max-width: 400px)');
+   const mediaQuery = window.matchMedia('(max-width: 500px)');
    //seting the initial value of seting IsMobile state. its is mobile
    setIsMobile(mediaQuery.matches);
 
@@ -53,7 +53,7 @@ const ComputersCanvas = () => {
 
   return (
     // canvas model to put 3d model on it and its properties
-    <Canvas frameloop="demand" shadows camera={{ position: [10, 7, 5], fov:35}} gl={{preserveDrawingBuffer: true }}>
+    <Canvas frameloop="demand" shadows dpr={[1, 2]} camera={{ position: [10, 7, 5], fov:35}} gl={{preserveDrawingBuffer: true }}>
       <Suspense fallback={<CanvasLoader />}>
         <OrbitControls
           enableZoom={false}
