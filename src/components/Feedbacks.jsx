@@ -34,6 +34,7 @@ const Feedbacks = () => {
 
         </motion.div>
       </div>
+      {/* mapping through each certification */}
       <div className={`${styles.paddingX} -mt-20 pb-14 flex flex-wrap gap-7`}>
         {certifications.map((certification, index) => (<FeedbackCard key={certification.name} index={index} {...certification}/>))}
 
